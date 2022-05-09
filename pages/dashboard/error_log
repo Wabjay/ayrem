@@ -1,0 +1,109 @@
+[25-Aug-2020 10:22:00 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::fetch_all() in /home2/ayrem/public_html/pages/dashboard/fetchuserdata.php:17
+Stack trace:
+#0 {main}
+  thrown in /home2/ayrem/public_html/pages/dashboard/fetchuserdata.php on line 17
+[25-Aug-2020 10:22:19 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::fetch_all() in /home2/ayrem/public_html/pages/dashboard/fetchuserdata.php:17
+Stack trace:
+#0 {main}
+  thrown in /home2/ayrem/public_html/pages/dashboard/fetchuserdata.php on line 17
+[25-Aug-2020 10:22:20 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::fetch_all() in /home2/ayrem/public_html/pages/dashboard/fetchgiftcards.php:15
+Stack trace:
+#0 {main}
+  thrown in /home2/ayrem/public_html/pages/dashboard/fetchgiftcards.php on line 15
+[25-Aug-2020 10:22:30 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::fetch_all() in /home2/ayrem/public_html/pages/dashboard/fetchgiftcards.php:15
+Stack trace:
+#0 {main}
+  thrown in /home2/ayrem/public_html/pages/dashboard/fetchgiftcards.php on line 15
+[25-Aug-2020 10:22:30 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::fetch_all() in /home2/ayrem/public_html/pages/dashboard/fetchuserdata.php:17
+Stack trace:
+#0 {main}
+  thrown in /home2/ayrem/public_html/pages/dashboard/fetchuserdata.php on line 17
+[26-Aug-2020 08:30:00 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::fetch_all() in /home2/ayrem/public_html/pages/dashboard/fetchuserdata.php:17
+Stack trace:
+#0 {main}
+  thrown in /home2/ayrem/public_html/pages/dashboard/fetchuserdata.php on line 17
+[26-Aug-2020 08:33:57 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::fetch_all() in /home2/ayrem/public_html/pages/dashboard/fetchuserdata.php:17
+Stack trace:
+#0 {main}
+  thrown in /home2/ayrem/public_html/pages/dashboard/fetchuserdata.php on line 17
+[26-Aug-2020 08:35:52 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::fetch_all() in /home2/ayrem/public_html/pages/dashboard/fetchuserdata.php:17
+Stack trace:
+#0 {main}
+  thrown in /home2/ayrem/public_html/pages/dashboard/fetchuserdata.php on line 17
+[26-Aug-2020 08:36:43 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::fetch_all() in /home2/ayrem/public_html/pages/dashboard/fetchuserdata.php:17
+Stack trace:
+#0 {main}
+  thrown in /home2/ayrem/public_html/pages/dashboard/fetchuserdata.php on line 17
+[26-Aug-2020 08:38:17 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::fetch_all() in /home2/ayrem/public_html/pages/dashboard/fetchuserdata.php:17
+Stack trace:
+#0 {main}
+  thrown in /home2/ayrem/public_html/pages/dashboard/fetchuserdata.php on line 17
+[26-Aug-2020 08:39:31 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::fetch_all() in /home2/ayrem/public_html/pages/dashboard/fetchuserdata.php:17
+Stack trace:
+#0 {main}
+  thrown in /home2/ayrem/public_html/pages/dashboard/fetchuserdata.php on line 17
+[26-Aug-2020 08:45:13 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::fetch_all() in /home2/ayrem/public_html/pages/dashboard/fetchuserdata.php:17
+Stack trace:
+#0 {main}
+  thrown in /home2/ayrem/public_html/pages/dashboard/fetchuserdata.php on line 17
+[26-Aug-2020 08:50:54 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::fetch_all() in /home2/ayrem/public_html/pages/dashboard/fetchuserdata.php:17
+Stack trace:
+#0 {main}
+  thrown in /home2/ayrem/public_html/pages/dashboard/fetchuserdata.php on line 17
+[26-Aug-2020 08:53:18 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::fetch_all() in /home2/ayrem/public_html/pages/dashboard/fetchuserdata.php:17
+Stack trace:
+#0 {main}
+  thrown in /home2/ayrem/public_html/pages/dashboard/fetchuserdata.php on line 17
+[26-Aug-2020 08:54:40 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::fetch_all() in /home2/ayrem/public_html/pages/dashboard/fetchuserdata.php:17
+Stack trace:
+#0 {main}
+  thrown in /home2/ayrem/public_html/pages/dashboard/fetchuserdata.php on line 17
+[26-Aug-2020 08:54:44 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::fetch_all() in /home2/ayrem/public_html/pages/dashboard/fetchuserdata.php:17
+Stack trace:
+#0 {main}
+  thrown in /home2/ayrem/public_html/pages/dashboard/fetchuserdata.php on line 17
+[26-Aug-2020 08:54:44 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::fetch_all() in /home2/ayrem/public_html/pages/dashboard/fetchgiftcards.php:15
+Stack trace:
+#0 {main}
+  thrown in /home2/ayrem/public_html/pages/dashboard/fetchgiftcards.php on line 15
+[26-Aug-2020 08:54:48 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::fetch_all() in /home2/ayrem/public_html/pages/dashboard/fetchuserdata.php:17
+Stack trace:
+#0 {main}
+  thrown in /home2/ayrem/public_html/pages/dashboard/fetchuserdata.php on line 17
+[26-Aug-2020 12:26:50 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::fetch_all() in /home2/ayrem/public_html/pages/dashboard/fetchuserdata.php:17
+Stack trace:
+#0 {main}
+  thrown in /home2/ayrem/public_html/pages/dashboard/fetchuserdata.php on line 17
+[26-Aug-2020 12:27:53 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::fetch_all() in /home2/ayrem/public_html/pages/dashboard/fetchgiftcards.php:15
+Stack trace:
+#0 {main}
+  thrown in /home2/ayrem/public_html/pages/dashboard/fetchgiftcards.php on line 15
+[26-Aug-2020 12:27:53 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::fetch_all() in /home2/ayrem/public_html/pages/dashboard/fetchuserdata.php:17
+Stack trace:
+#0 {main}
+  thrown in /home2/ayrem/public_html/pages/dashboard/fetchuserdata.php on line 17
+[29-Aug-2020 14:01:09 America/Chicago] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /home2/ayrem/public_html/pages/dashboard/fetchdatanetworklogo.php on line 28
+[29-Aug-2020 14:01:13 America/Chicago] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /home2/ayrem/public_html/pages/dashboard/fetchdatanetworklogo.php on line 28
+[29-Aug-2020 14:43:14 America/Chicago] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /home2/ayrem/public_html/pages/dashboard/fetchdatanetworklogo.php on line 29
+[29-Aug-2020 14:48:22 America/Chicago] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /home2/ayrem/public_html/pages/dashboard/fetchdatanetworklogo.php on line 29
+[29-Aug-2020 14:48:27 America/Chicago] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /home2/ayrem/public_html/pages/dashboard/fetchdatanetworklogo.php on line 29
+[02-Sep-2020 01:49:07 America/Chicago] PHP Warning:  A non-numeric value encountered in /home2/ayrem/public_html/pages/dashboard/paystack.php on line 6
+[02-Sep-2020 01:49:09 America/Chicago] PHP Warning:  A non-numeric value encountered in /home2/ayrem/public_html/pages/dashboard/paystack.php on line 6
+[02-Sep-2020 01:49:10 America/Chicago] PHP Warning:  A non-numeric value encountered in /home2/ayrem/public_html/pages/dashboard/paystack.php on line 6
+[02-Sep-2020 01:49:12 America/Chicago] PHP Warning:  A non-numeric value encountered in /home2/ayrem/public_html/pages/dashboard/paystack.php on line 6
+[02-Sep-2020 01:49:13 America/Chicago] PHP Warning:  A non-numeric value encountered in /home2/ayrem/public_html/pages/dashboard/paystack.php on line 6
+[02-Sep-2020 01:49:15 America/Chicago] PHP Warning:  A non-numeric value encountered in /home2/ayrem/public_html/pages/dashboard/paystack.php on line 6
+[02-Sep-2020 01:49:16 America/Chicago] PHP Warning:  A non-numeric value encountered in /home2/ayrem/public_html/pages/dashboard/paystack.php on line 6
+[02-Sep-2020 01:49:18 America/Chicago] PHP Warning:  A non-numeric value encountered in /home2/ayrem/public_html/pages/dashboard/paystack.php on line 6
+[02-Sep-2020 01:49:20 America/Chicago] PHP Warning:  A non-numeric value encountered in /home2/ayrem/public_html/pages/dashboard/paystack.php on line 6
+[02-Sep-2020 01:49:21 America/Chicago] PHP Warning:  A non-numeric value encountered in /home2/ayrem/public_html/pages/dashboard/paystack.php on line 6
+[02-Sep-2020 01:49:23 America/Chicago] PHP Warning:  A non-numeric value encountered in /home2/ayrem/public_html/pages/dashboard/paystack.php on line 6
+[02-Sep-2020 01:49:25 America/Chicago] PHP Warning:  A non-numeric value encountered in /home2/ayrem/public_html/pages/dashboard/paystack.php on line 6
+[02-Sep-2020 01:49:27 America/Chicago] PHP Warning:  A non-numeric value encountered in /home2/ayrem/public_html/pages/dashboard/paystack.php on line 6
+[02-Sep-2020 01:49:29 America/Chicago] PHP Warning:  A non-numeric value encountered in /home2/ayrem/public_html/pages/dashboard/paystack.php on line 6
+[02-Sep-2020 01:49:33 America/Chicago] PHP Warning:  A non-numeric value encountered in /home2/ayrem/public_html/pages/dashboard/paystack.php on line 6
+[02-Sep-2020 01:49:34 America/Chicago] PHP Warning:  A non-numeric value encountered in /home2/ayrem/public_html/pages/dashboard/paystack.php on line 6
+[02-Sep-2020 01:49:36 America/Chicago] PHP Warning:  A non-numeric value encountered in /home2/ayrem/public_html/pages/dashboard/paystack.php on line 6
+[02-Sep-2020 12:29:40 America/Chicago] PHP Warning:  include(securityinfo.php): failed to open stream: No such file or directory in /home2/ayrem/public_html/pages/dashboard/fetchdatanetwork.php on line 29
+[02-Sep-2020 12:29:40 America/Chicago] PHP Warning:  include(securityinfo.php): failed to open stream: No such file or directory in /home2/ayrem/public_html/pages/dashboard/fetchdatanetwork.php on line 29
+[02-Sep-2020 12:29:40 America/Chicago] PHP Warning:  include(): Failed opening 'securityinfo.php' for inclusion (include_path='.:/opt/php71/lib/php') in /home2/ayrem/public_html/pages/dashboard/fetchdatanetwork.php on line 29

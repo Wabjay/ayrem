@@ -1,0 +1,85 @@
+<?php
+session_start();
+require("../../dbcon.html");
+
+$obj = new ayrem;
+$conn = $obj->connect_db;
+
+//$staff_id = $_SESSION['staff_id'];
+//$cartObject = [];
+$cartObject = json_decode($_POST['data'],false);
+$price = $_POST['price'];
+$customerid = $_SESSION['id'];
+
+
+//echo"$rangedate";
+$date= date('jS F, Y h:i:sa');
+
+$neodate = date('jS F, Y');
+
+error_reporting(0);
+
+
+	$network = $cartObject->network;
+	$phone = $cartObject->phone;
+	$plan =$cartObject->plan;
+
+	$sql = "insert into data_transaction_tb (user_id,mobile_network,phone_no,data_plan_value,data_plan_price,payment_method,status,timestamp,date,neo_date) values ('$customerid','$network','$phone','$plan','$price','Bank Transfer','Order Received',now(),'$date','$neodate')";	
+	$inserttransaction= $conn->query($sql);	
+	$last_id = mysqli_insert_id($conn);
+		echo mysqli_error($conn);	
+
+//status update
+	$sql =  "insert into order_status_tb (transaction_id,status,date) values ('$last_id','Order Received','$date')";
+	
+	$update_status= $conn->query($sql);
+
+
+//entering bank detail
+
+$bank = $conn->real_escape_string($_POST['bank']);
+$accountname = $conn->real_escape_string($_POST['accountname']);
+$accountno = $conn->real_escape_string($_POST['accountno']);
+$amount = $conn->real_escape_string($_POST['amount']);
+//echo "$accountname";
+	$sql =  "insert into bank_detail_tb (data_transaction_id,bank_name,account_no,account_name,amount,status,timestamp,date) values ('$last_id','$bank','$accountno','$accountname','$amount','online',now(),'$date')";
+	
+	$insertbankdetail= $conn->query($sql);
+//	$last_id = mysqli_insert_id($conn);
+		echo mysqli_error($conn);	
+		//echo mysqli_error($conn);	
+		
+		//$error = mysqli_error($conn);
+			if($insertbankdetail){
+
+//				echo "<h4 class='text-center text-success log-status-container' style='color:green'>You have successfully added $bankname to Banking Account</h4>";
+			}else{
+		echo mysqli_error($conn);	
+
+			}
+
+		//echo"$error";
+
+
+if($insertbankdetail){
+	echo "success";
+}else{
+	echo "failed";
+	
+}
+//echo json_encode($last_id);
+
+
+$from = "Account@ayrem.net";
+$to= "Ayremintl@gmail.com";
+$subject = "Ayrem | New Data Transaction";
+$body= "<html><body style='width:100%'><div style='border:0.5px solid blue; width:80%; padding: 20px'> <img src='http://www.ayrem.net/images/dashboard-logo.png'><h3>Dear Admin,</h3><p>You have a new Data transaction to attend to</p><p style='margin-bottom:20px'>Click the button below to attend to the request</p><a href='http://www.ayrem.net/admin/' style='padding:10px; font-size:13px;background-color:blue;color:white; border-radius:5px'>Attend to Transaction</a></div></body></html>";
+
+
+// To send HTML mail, the Content-type header must be set
+$headers  = 'MIME-Version: 1.0' . "\r\n";
+$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
+// Additional headers
+ $headers .= "From: ".$from."\r\n";
+mail($to,$subject,$body,$headers);
+?>		

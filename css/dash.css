@@ -1,0 +1,499 @@
+body {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 100px;
+  font-family: "Sailec", sans-serif;
+  background: transparent;
+}
+.container{
+   background: #E5E5E5;;
+}
+.details{
+  display: none;
+}
+
+main {
+  /* width: 100%; */
+  background: #E5E5E5;;
+  box-sizing: border-box;
+  padding: 0.8em auto;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 20px;
+  height: 100%;
+}
+/* aside {
+  display: none;
+} */
+
+.carousel h1 {
+  margin: 0;
+  margin-top: 36px;
+  font-family: Sailec-Medium;
+  font-size: 24px;
+  line-height: 28px;
+  color: #282f45;
+  text-align: left;
+  padding-left: 24px;
+  margin-bottom: 8;
+}
+
+.carousel p {
+  margin: 0;
+  font-family: Sailec-Regular;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 27px;
+  color: #6b6f7d;
+   text-align: left;
+  padding-left: 24px;
+  margin-top: 0;
+}
+a {
+  text-decoration: none;
+  color: #0032c9;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+
+
+
+
+.hide-mobile {
+  display: none;
+}
+.carousel .slideshow {
+  width: 302px;
+  margin: auto;
+}
+.carousel li a {
+  position: absolute;
+  margin: 0 0;
+  left: 0;
+  right: 0;
+  bottom: 30px;
+  width: 70%;
+  font-size: 14px;
+  color: #0032c9;
+  text-decoration: none;
+  z-index: 99;
+  padding-top: -2em;
+}
+.slideshow ul li {
+  position: relative;
+  top: 10px;
+  width: 302px;
+  float: left;
+}
+
+.todo-sub {
+  display: flex;
+  margin-top: 20px;
+  margin-left: 5%;
+  font-family: "sailec-Regular";
+}
+
+.todo-sub p {
+  padding-top: 5px;
+  font-weight: bold;
+  font-family: "sailec-medium";
+  padding-left: 10px;
+  padding-right: 10px;
+}
+ 
+.todo-sub {
+  justify-content: space-between;
+  width: 280px;
+  margin: 20px;
+}
+
+.todo-sub a{
+  padding: 0;
+
+  font-size: 12px;
+}
+.subscribe h4 {
+  color: #0032c9;
+  margin-left: 25px;
+}
+
+.sub-container{
+   background: #FFFFFF;
+   overflow: hidden;
+   border-radius: 8px;
+  
+}
+.sub {
+  display: flex;
+  width: 100%;
+  height: 48px;
+  
+  border-bottom:  0.5px solid lightgray;
+  
+  background: #FFFFFF;
+  margin: 24px 0;
+  padding: 10px;
+  margin-left: 5%;
+  box-sizing: border-box;
+}
+.subscribe {
+  margin: 0 auto;
+  margin-top: 41px;
+  padding: 10px auto;
+  width: 90%;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+.reg{
+  margin: 0 auto;
+  margin-top: 41px;
+  padding: 10px auto;
+  width: 90%;
+  border-radius: 8px;
+  border: 2px solid red;
+}
+
+.sub {
+  margin: 0;
+  height: 76px;
+}
+
+.reg1{
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  height: 373px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+.reg1 > img{
+ margin: 0 auto 24px;
+  height:61px;
+   width:47px;
+}
+.reg1 > p{
+  font-family: Sailec-Regular;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 22px;
+text-align: center;
+color: #9B9EA9;
+width: 278px;
+margin: 0 auto;
+}
+.sub p {
+  font-size: 14px;
+  font-family: "Sailec-Medium";
+  color: #282f45;
+  /* padding-left: 14px; */
+}
+.sub span {
+  font-size: 12px;
+  padding: 3px 8px;
+  margin-left: 10px;
+  border-radius: 24px;
+}
+.sub div {
+  align-self: center;
+  width: 100%;
+}
+.sub div div {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px;
+  font-weight: bold;
+  padding-left: 5px;
+  /* padding-right: 5px; */
+  text-align: center;
+  width: 100%;
+}
+.verify {
+  color: #15777b;
+  background: #edfcfd;
+}
+.recieve {
+  color: #6a2776;
+  background: #f9eafc;
+}
+.sent {
+  color: #117b47;
+  background: #e5fdf2;
+}
+.sub .price {
+  color: #08ad5e;
+  /* margin-left: 85px; */
+  /* padding-left: 85px; */
+  font-size: 16px;
+  font-family: "Saliec-Medium";
+}
+.item p {
+  color: #9b9ea9;
+  font-size: 12px;
+  font-weight: 100;
+  font-family: "Sailec-Regular";
+  padding: 0 auto;
+}
+
+.subscribe p,
+.subscribe h6 {
+  margin: 0;
+  padding: 0;
+}
+
+
+@media only screen and (min-width: 375px) {
+    .subscribe{
+      width: 90%;
+    }
+  .sub,
+  .todo-sub {
+    width: 100%;
+  }
+  .todo-sub a {
+    padding: 0;
+    
+    font-size: 12px;
+  }
+  .sub div div {
+    width:100%;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .slideshow {
+    overflow: hidden;
+    width: 302px;
+    height: 208px;
+    margin: 0;
+    /* border: 1px solid black; */
+  }
+  .carousel ul {
+    position: relative;
+    width: 906px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 0;
+    animation: 10s slidy infinite;
+  }
+  .carousel ul li {
+    margin: 0;
+    padding: 0;
+  }
+}
+@media only screen and (min-width: 502px) {
+ 
+
+  h1 {
+    font-size: 30px;
+    /* line-height: 0.7rem; */
+  }
+  p {
+    font-size: 16px;
+    font-weight: lighter;
+  }
+  .subscribe,
+  .sub,
+  .todo-sub {
+    width: 460px;
+  }
+  .sub div div {
+    width: 380px;
+    margin-top: 10px;
+  }
+
+@media only screen and (min-width: 650px) {
+  /* ***********
+  Header start for screen 650px upward 
+  ****************/
+
+  .show-desktop {
+    display: block;
+  }
+  .hide-desktop {
+    display: none;
+  }
+
+  .carousel {
+    margin-top: 1.5rem;
+    width: 90%;
+    margin: auto;
+    /* margin: auto; */
+    /* margin-left: 5%; */
+    /* border: 1px solid black; */
+  }
+  /* .slideshow {
+    margin-left: 0;
+  } */
+  .subscribe,
+  .sub,
+  .todo-sub {
+    width: 550px;
+  }
+  .sub div div {
+    width: 480px;
+  }
+  .carousel li a {
+    bottom: 15px;
+    width: 100%;
+    font-size: 12px;
+    text-align: left;
+    margin-left: 30px;
+  }
+
+  .carousel ul {
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0;
+    width: 100%;
+    /* width: 300px; */
+    text-align: center;
+  }
+  .banner {
+    width: 190px;
+  }
+  .slideshow {
+    width: 604px;
+    margin: 0;
+  }
+}
+@media only screen and (min-width: 850px) {
+  .carousel li a {
+    bottom: 20px;
+    width: 80%;
+    text-align: left;
+    margin-left: 25px;
+  }
+  .carousel {
+    margin-top: 32px;
+    margin-left: 5%;
+  }
+
+  .banner {
+    width: 250px;
+  }
+  .carousel.slideshow {
+    /* width: 794px; */
+    margin: 0;
+  }
+  .carousel li {
+    margin: 0 5px;
+    padding: 0 5px;
+  }
+  .subscribe,
+  .sub,
+  .todo-sub {
+    width: 750px;
+  }
+  .sub div div {
+    width: 680px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  main {
+    width: 90%;
+    max-width: 1150px;
+    margin: 0 auto;
+  }
+ 
+  .banner {
+    width: 302px;
+  }
+  .carousel .slideshow {
+    width: 920px;
+    margin: 0;
+  }
+
+  .subscribe,
+  .sub,
+  .todo-sub {
+    width: 920px;
+  }
+  .todo-sub p:first-child {
+    padding-left: 10px;
+  }
+  .sub div div {
+    width: 820px;
+  }
+  .carousel li a {
+    width: 70%;
+    font-size: 14px;
+    color: #0032c9;
+    text-decoration: none;
+    z-index: 10;
+    padding-top: -2em;
+    text-align: left;
+    margin-left: 35px;
+  }
+  .carousel,
+  .todo-sub,
+  .subscribe,
+  .sub {
+    margin-left: 0;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .subscribe,
+  .sub,
+  .todo-sub {
+    width: 1126px;
+  }
+
+  .sub div div {
+    width: 1026px;
+  }
+
+  /* DASHBOARD REFIX */
+  .container {
+    display: grid;
+    grid-template-columns: 240px 1fr;
+    grid-template-rows: 72px 1fr;
+    grid-template-areas:
+      "aside header"
+      "aside main";
+    height: 100vh;
+  }
+  main {
+    grid-area: main;
+    background: #e5e5e5;
+    padding-top: 40px;
+    padding-left: 49px;
+  }
+
+  /* START CODNG FROM HERE */
+}
+
+@keyframes slidy {
+  0% {
+    left: 0%;
+  }
+  25% {
+    left: 0%;
+  }
+  30% {
+    left: -100%;
+  }
+  57% {
+    left: -100%;
+  }
+  62% {
+    left: -200%;
+  }
+  95% {
+    left: -200%;
+  }
+
+  100% {
+    left: 0%;
+  }
+}

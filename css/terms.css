@@ -1,0 +1,67 @@
+.content {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 10fr 1fr;
+  max-width: 1150px;
+  margin: 0 auto;
+}
+.container {
+  grid-column: 2/3;
+}
+.subtopic {
+  font-family: Inter;
+font-style: normal;
+font-weight: bold;
+  font-size: 32px;
+  line-height: 47px;
+  padding: 16px 16px;
+  color: #282f45;
+}
+.head {
+ font-family: Inter;
+font-style: normal;
+font-weight: bold;
+  font-size: 60px;
+  line-height: 87px;
+  letter-spacing: -1px;
+  margin: 50px auto 0 0;
+  color: #0d152e;
+}
+p {
+  font-family: Inter;
+font-style: normal;
+font-weight: normal;
+  font-size: 20px;
+  line-height: 34px;
+  color: #43495c;
+}
+p a {
+  color: blue;
+  text-decoration: underline;
+}
+
+.text {
+  /* margin-left: 19px; */
+  margin-bottom: 16px;
+  font-family: Inter;
+font-style: normal;
+font-weight: normal;
+  font-size: 20px;
+  line-height: 34px;
+}
+ol.text {
+  margin-left: 40px;
+}
+
+ol {
+  margin-left: 24px;
+  padding-right: 20px;
+}
+
+ol > li {
+  padding: 5px 20px;
+  /* font-size: 16px; */
+}
+li ol li::marker {
+  margin-left: 50px;
+}

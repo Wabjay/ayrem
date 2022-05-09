@@ -1,0 +1,431 @@
+* {
+  outline: none;
+}
+.offer {
+  grid-template-columns: 1fr;
+}
+#show-send, #button-show{
+  display: none;
+}
+.info {
+  width: 90%;
+  grid-column: 1/3;
+  justify-self: self-start;
+  max-width: 487px;
+  margin: 0;
+}
+form {
+  position: relative;
+}
+form div{
+  position: relative;
+    margin-bottom: 32px;
+}
+/* CRYPTOPAYMENT PAGE */
+.card-upload-wrapper{
+  padding: 16px 0;
+}
+
+.wallet, .recieve{
+  display: grid;
+  grid-template-columns: 1fr 80px;
+  grid-gap: 8px;
+}
+.wallet{
+  padding-top: 32px;
+}
+.wallet input, .recieve{
+  background: #F9FBFE;
+border: 1px solid #CED9E8;
+box-sizing: border-box;
+border-radius: 8px;
+}
+.recieve{
+  border-radius: 16px;
+}
+.heading{
+  margin-bottom: 8px;
+}
+
+.wallet .copy{
+align-self: center;
+margin-bottom: 10px;
+}
+.send{
+  /* display: grid;
+  grid-template-columns: 1fr auto;
+  grid-gap: 10px;
+   */
+  font-family: Inter;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 24px;
+text-align: right;
+padding: 20px 24px;
+background: #F9FBFE;
+border: 1px solid #CED9E8;
+box-sizing: border-box;
+border-radius: 16px;
+}
+.send p{
+  width: auto;
+  text-align: left;
+  margin-bottom: 0;
+  padding-top: 0;
+  white-space: nowrap;
+  font-family: Inter;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 24px;
+color: #282F45;
+}
+.tree{
+  display: grid;
+  grid-template-columns: 3fr 32px 2fr;
+  grid-column-gap: 4px;
+  height: 44px;
+  
+  justify-items: center;
+}
+.tree label{
+  grid-column: 1/4;
+}
+.tree p{
+  border: 0.5px solid #ACC0F4;
+box-sizing: border-box;
+border-radius: 8px;
+text-align: center;
+width: 100%;
+padding: 8px;
+background-color: #F9FBFE;
+font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 22px;
+color: #282F45;
+
+}
+.tree p:nth-child(3){
+  border-radius: 24px;
+  height: 26px;
+  margin-top: 9px;
+  padding: 0;
+  font-family: Sailec-Regular;
+  font-size: 16px;
+  line-height: 19px;
+  color: #6B6F7D;
+  background-color: #FFFFFF;
+
+}
+ p.crypto{
+  text-align: right;
+  /* width: auto; */
+  font-family: Inter;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 24px;
+text-align: right;
+color: #0032C9;
+}
+.small {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #6B6F7D;
+}
+form input {
+  /* max-width: 423px; */
+  width: 100%;
+  font-family: Sailec-Regular;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: #282f45;
+}
+form > div {
+  margin-bottom: 24px;
+  border-radius: 16px;
+  border: 0.5px solid #CED9E8;
+  padding: 32px 16px;
+  /* padding-bottom: 0; */
+}
+.header {
+  margin-bottom: 50px;
+}
+.crypto-details {
+  position: relative;
+  width: 100%;
+  max-width: 470px;
+  box-sizing: border-box;
+  /* display: grid;
+  grid-template-columns: 1fr auto; 
+  grid-gap: 0;*/
+  border: 0.5px solid #ced9e8;
+  overflow: hidden;
+  display: block;
+  margin-top: 24px;
+  border-radius: 8px;
+}
+.crypto-details > div{
+  margin-bottom: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.crypto-details  p:first-child, .crypto-details p:nth-child(2){
+  background: #f9fbfe;
+}
+.crypto-details p {
+  width: 100%;
+  max-width: 100%;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: #6b6f7d;
+  padding: 10px;
+  margin: 0;
+  border-bottom: 0.5px solid #ced9e8;
+  box-sizing: border-box;
+}
+.crypto-details p:nth-child(even) {
+  text-align: right;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.05em;
+  color: #6b6f7d;
+  border-left: 0.5px solid #CED9E8;
+}
+#cryptoAmount,
+#cryptoRecieve {
+  background-repeat: no-repeat;
+  background-position: calc(100% - 24px) center;
+  color: #0032C9;
+}
+/* #cryptoAmount {
+  background-image: url(../images/dollar.png);
+} */
+#cryptoRecieve {
+  background-image: url(../images/NAIRA.png);
+}
+
+
+
+.crypto-detail .head {
+  font-family: Inter;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 24px;
+color: #282F45;
+padding-top: 0;
+padding-bottom: 12px;
+margin-bottom: 0;
+} 
+.crypto-detail{
+padding: 32px 24px;
+border: 1px solid #CED9E8;
+border-radius: 16px;
+}
+
+.content {
+  position: relative;
+  padding: 22px 0;
+  margin: 0 auto;
+  width: 100%;
+}
+.crypto-detail ul{
+list-style: none;
+}
+.crypto-detail ul li{
+  font-family: Inter;
+  padding: 12px 0;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 19px;
+color: #282F45;
+border-bottom: 0.5px solid #CED9E8;
+  }
+.button-wrapper {
+  margin-top: 32px;
+}
+#rateContainer{
+  margin-top: 16px;
+}
+form .copy {
+  text-align: center;
+  max-width: 423px;
+  position: relative;
+}
+#pop {
+  position: fixed;
+  display: inline-block;
+  width: auto;
+  max-width: 250px;
+  z-index: 10;
+  right: 25%;
+  top: 114px;
+  opacity: 0;
+  padding: 10px;
+  color: #117B47;
+  background: #F9FFFC;
+border: 0.5px solid #117B47;
+box-sizing: border-box;
+border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+form .copy > button {
+  border:  #edf2f7 solid 0.5px;
+  background: white;
+  width: 79px;
+  height: 48px;
+  margin: 0 auto;
+  padding-left: 32px;
+  background-image: url(../images/file_copy.png);
+  background-position-y: center;
+  background-position-x: 8px;
+  background-repeat: no-repeat;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+form .copy > button:hover {
+  border: solid 0.5px #ced9e8;
+  background-color: #fff;
+}
+.copy p {
+  padding: auto;
+  margin: 0;
+  margin-right: 16px;
+}
+
+.upload-img {
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  height: 48px;
+  width: 100%;
+  max-width: 423px;
+  padding-left: 23px;
+  margin: 8px auto 12px;
+  align-content: center;
+  border: dashed 2.5px #ced9e8;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+.upload-img p{
+  text-align: left;
+}
+.upload {
+  margin: 0;
+  padding: 0;
+}
+.upload-img img {
+  height: 32px;
+  width: 32px;
+  align-self: center;
+  margin-right: 16px;
+}
+
+
+.priceAmount{
+  border: 1px solid #DE350B;
+  box-shadow: 0px 0px 0px 3px #FFF5F2;
+}
+.priceAmount > p{
+    border-right: 0.5px solid #DE350B;     
+}
+
+.priceAmount > input{
+    color: #DE350B;
+}
+
+@media only screen and (min-width: 365px) {
+.send{
+display: flex;
+justify-content: space-between;
+}
+}
+@media only screen and (min-width: 765px) {
+.send{
+display: flex;
+  justify-content: space-between;
+}
+form > div {
+  padding: 32px 24px;
+  width: 100%;
+}
+}
+@media only screen and (min-width: 1024px) {
+  .info {
+    width: 100%;
+  }
+  .content {
+    display: block;
+    /* grid-template-columns: 1fr 1fr; */
+    /* column-gap: 20px; */
+}
+.breadcrumb {
+  margin-left: 0;
+}
+
+
+
+  
+
+
+  form .copy {
+    align-self: center;
+    margin-bottom: 0;
+    text-align: left;
+  }
+  .tree{
+    grid-column-gap: 15px;
+  }
+  .upload-img {
+  padding-left: 70px;
+  }
+  .crypto-detail { 
+    height: 398px;
+  }
+}
+
+
+@media only screen and (min-width: 1280px) {
+
+  form {
+    display: grid;
+    grid-template-columns: 470px auto;
+    grid-column-gap: 24px;
+    padding: 16px 0;
+  }
+.send {
+  grid-column: 2/3;
+  padding: 20px 24px;
+  height: 64px;
+}
+.crypto-detail{
+  width: 470px;
+}
+}
+@media only screen and (min-width: 1440px) {
+  form {
+    grid-column-gap: 56px;
+  }
+}

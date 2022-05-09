@@ -1,0 +1,187 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="../../css/dashboard.css" />
+    <link rel="stylesheet" href="../../css/transaction.css" />
+    <title>Transaction Summary</title>
+    <link rel="shortcut icon" href="../../images/favicon.png" type="image/x-icon">
+    <style>
+      .button-wrapper {
+        margin-top: 97px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <!--  header path-->
+      <header>
+        <div class="profile">
+          <a href="../dashboard/notification.html" class="notify"><img src="../../images/notification.png" alt="notification"
+              id="notification" />
+            <span id="badge">3</span></a></a>
+          <div class="avatar">
+            <a href="#" id="profilePics"><img src="../../images/avatar.png" alt="avatar" /></a>
+            <a href="#"><img src="../../images/downarrow.png" alt="dropdown" onclick="myFunction()" id="down-arrow"
+                class="down-arrow" /></a>
+            <div id="myDropdown" class="dropdown-content">
+              <a href="../dashboard/settings.html" class="my-profile">My Profile</a>
+              <a href="logout.html" class="logout">Logout</a>
+            </div>
+          </div>
+        </div>
+
+
+      </header>
+      <!-- ASIDE PART -->
+
+    <!-- ASIDE PART -->
+    
+  <aside>
+    <div class="aside-content">
+      <a href="#">
+        <img src="../../images/ham.svg" alt="toggle-menu" class="hide-desktop" id="menu-open" /></a>
+      <div class="sidebar hide-mobile show-desktop">
+        <div>
+          <a href="#">
+            <img src="../../images/ham.svg" alt="toggle-menu" class="exit hide-desktop" id="exit" /></a>
+          <a href="index.html">
+            <img src="../../images/dashboard-logo.png" class="logo" alt="Ayrem Logo" /></a>
+        </div>
+  
+            <!-- links/ dropdown content -->
+            <ul class="links">
+              <li>
+                <a
+                  href="../../pages/dashboard/index.html"
+                  id="dashboard-btn"
+                  class="dashboard"
+                >
+                  Dashboard</a
+                >
+              </li>
+<!--              <li>
+                <a
+                  href="../../pages/dashboard/referral.html"
+                  id="referral-btn"
+                  class="refferal"
+                  >Referrals</a
+                >
+              </li>-->
+              <li class="activelink">
+                <a
+                  href="../../pages/dashboard/transactions.html"
+                  id="setting-btn"
+                  class="setting"
+                  >Transactions</a
+                >
+              </li>
+              <li>
+                <a
+                  href="../../pages/dashboard/settings.html"
+                  id="setting-btn"
+                  class="setting"
+                  >Setting</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </aside>
+
+      <!-- ASIDE PART -->
+
+      <!-- MAIN PART -->
+      <main>
+        <!-- DISPLAY ALL THE TRANSACTION MADE BY USER -->
+        <section class="offer">
+ <!--         <div class="breadcrumb">
+            <a href="" onclick="goBack()"> <span> <</span> Back </a>
+          </div>-->
+          <section class="transaction-summary">
+            <div class="inner-popup">
+              <div class="popup-split">
+                <p>Transaction Details</p>
+               
+              </div>
+              <div class="transaction-border">
+                <div class="each-transaction">
+                  <div id="cardLogo"></div>
+                  <div class="item">
+                    <p id="cardValue"></p>
+                  </div>
+                  <p class="price" id="cardPrice"></p>
+                </div>
+              </div>
+              <div class="line"></div>
+            </div>
+            <div class="inner-popup">
+              <p class="bold">ORDER DETAILS</p>
+              <div class="popup-split">
+                <p class="order-info">Order Number</p>
+                <p class="order-details" id="orderNo">#11011101</p>
+              </div>
+              <div class="popup-split">
+                <p class="order-info">Date/Time</p>
+                <p class="order-details" id="dateContainer"></p>
+              </div>
+              <div class="popup-split">
+                <p class="order-info">Wallet Address</p>
+                <p class="order-details" id="walletAddress"></p>
+              </div>
+            </div>
+          
+            <div class="inner-popup">
+              <p class="bold">PAYMENT DETAILS</p>
+              <div class="popup-split">
+                <p class="order-info">Bank Name</p>
+                <p class="order-details" id="bankName">GT Bank</p>
+              </div>
+              <div class="popup-split">
+                <p class="order-info">Account Name</p>
+                <p class="order-details" id="accountName">Olagbemi Fatai</p>
+              </div>
+              <div class="popup-split">
+                <p class="order-info">Account Number</p>
+                <p class="order-details" id="accountNo">002919910</p>
+              </div>
+            </div>
+            <div class="inner-popup">
+              <div class="popup-split">
+                <p class="order-info">You will recieve</p>
+                <p class="order-details price" id="ammountToReceive"></p>
+              </div>
+          
+            </div>
+          <div class="button-wrapper">
+              <a href="index.html" class="button"
+                >Go to Homepage</a
+              >
+            </div>
+          
+          
+          
+          
+          </section>
+            
+          </div>
+        </section>
+      </main>
+      <!-- MAIN PART -->
+    </div>
+
+    <script src="../../js/dashboard.js"></script>
+    <script src="../../js/jquery-1.11.1.min.js"></script>
+    <script src="../../js/myscript.js"></script>
+
+    <!-- <script>
+      userData();
+      fetchCryptoTransaction();
+    </script>         -->
+
+  </body>
+</html>

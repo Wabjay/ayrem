@@ -1,0 +1,56 @@
+/* 
+INDEX PAGE CSS
+TABLE CSS 
+*/
+
+table {
+  width: 100%;
+}
+.content {
+  width: 80%;
+  background: #edf2f7;
+  border: 0.5px solid #ced9e8;
+  box-sizing: border-box;
+  border-radius: 16px 16px 0px 0px;
+  margin: auto;
+}
+th {
+  padding: 18px;
+  background: #edf2f7;
+}
+tr img {
+  width: 44px;
+  margin: 5px 0;
+  float: left;
+}
+table .action {
+  background: #edf2f7;
+  border-radius: 4px;
+  display: none;
+  font-family: "Sailec-Regular";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: #0032c9;
+}
+
+td p {
+  margin-left: 0;
+  padding-left: 5px;
+  float: left;
+}
+tr {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+tr:hover {
+  background: #f9fbfe;
+}
+td {
+  align-self: center;
+}
+.price {
+  grid-column: 2;
+  grid-row: 2;
+}
